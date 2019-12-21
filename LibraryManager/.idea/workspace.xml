@@ -4,6 +4,23 @@
     <list default="true" id="95bf1837-7a5b-4e1a-949a-94f8b4e66ce1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yangqi/dao/BlogDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/dao/BlogDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yangqi/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yangqi/test/TestUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/test/TestUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/controller/BlogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/dao/BlogDAO$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/dao/BlogDAO$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/dao/BlogDAO$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/dao/BlogDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/dao/UserDAO$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/dao/UserDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/model/Blog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/test/TestBlog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/test/TestUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +87,7 @@
       <recent name="E:\code\JavaEE\LibraryManager\LibraryManager\src\main\java\com\yangqi\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestUser.testSave">
+  <component name="RunManager" selected="JUnit.TestUser.testFind">
     <configuration name="TestBlog.testDeleteBatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LibraryManager" />
       <extension name="coverage">
@@ -119,7 +136,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBlog.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestUser.testFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LibraryManager" />
       <extension name="coverage">
         <pattern>
@@ -128,8 +145,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.yangqi.test" />
-      <option name="MAIN_CLASS_NAME" value="com.yangqi.test.TestBlog" />
-      <option name="METHOD_NAME" value="testSave" />
+      <option name="MAIN_CLASS_NAME" value="com.yangqi.test.TestUser" />
+      <option name="METHOD_NAME" value="testFind" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -226,19 +243,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat 7.0.96" />
-      <item itemvalue="JUnit.TestBlog.testSave" />
       <item itemvalue="JUnit.TestBlog.testDeleteBatch" />
       <item itemvalue="JUnit.TestBlog.testPaging" />
       <item itemvalue="JUnit.TestBlog.testFind" />
       <item itemvalue="JUnit.TestUser.testSave" />
+      <item itemvalue="JUnit.TestUser.testFind" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestUser.testFind" />
         <item itemvalue="JUnit.TestUser.testSave" />
         <item itemvalue="JUnit.TestBlog.testFind" />
         <item itemvalue="JUnit.TestBlog.testPaging" />
         <item itemvalue="JUnit.TestBlog.testDeleteBatch" />
-        <item itemvalue="JUnit.TestBlog.testSave" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +284,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576901130952</updated>
-      <workItem from="1576901133836" duration="3117000" />
+      <workItem from="1576901133836" duration="3280000" />
     </task>
     <task id="LOCAL-00001" summary="Spring+SpringMVC+Hibernate框架搭建">
       <created>1576903552184</created>
@@ -297,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576904130488</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Spring+SpringMVC+Hibernate框架搭建">
+      <created>1576904272332</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576904272332</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,38 +340,42 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576901379283" />
-    <state x="528" y="121" key="CommitChangelistDialog2" timestamp="1576904129844">
+    <state x="770" y="132" key="CommitChangelistDialog2" timestamp="1576904551227">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="528" y="121" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1576904129844" />
+    <state x="770" y="132" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1576904551227" />
     <state x="740" y="268" key="FileChooserDialogImpl" timestamp="1576903502491">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="268" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1576903502491" />
-    <state width="1877" height="249" key="GridCell.Tab.0.bottom" timestamp="1576903321733">
+    <state width="1877" height="249" key="GridCell.Tab.0.bottom" timestamp="1576904527908">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576903321733" />
-    <state width="1877" height="249" key="GridCell.Tab.0.center" timestamp="1576903321732">
+    <state width="1877" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576904527908" />
+    <state width="1877" height="249" key="GridCell.Tab.0.center" timestamp="1576904527908">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="249" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576903321732" />
-    <state width="1877" height="249" key="GridCell.Tab.0.left" timestamp="1576903321732">
+    <state width="1877" height="249" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576904527908" />
+    <state width="1877" height="249" key="GridCell.Tab.0.left" timestamp="1576904527908">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="249" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576903321732" />
-    <state width="1877" height="249" key="GridCell.Tab.0.right" timestamp="1576903321732">
+    <state width="1877" height="249" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576904527908" />
+    <state width="1877" height="249" key="GridCell.Tab.0.right" timestamp="1576904527908">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="249" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576903321732" />
+    <state width="1877" height="249" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576904527908" />
+    <state x="490" y="182" key="Maven.ArtifactSearchDialog" timestamp="1576904325188">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="490" y="182" key="Maven.ArtifactSearchDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576904325188" />
     <state x="440" y="102" key="SettingsEditor" timestamp="1576902823470">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="440" y="102" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1576902823470" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1576904134304">
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1576904278537">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1576904134304" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1576904278537" />
     <state x="652" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1576901135504">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

@@ -29,7 +29,7 @@ public class TestUser {
     public void testSave() throws Exception {
         User user = new User();
 
-        user.setUsername("345");
+        user.setUsername("445");
         user.setPassword("123");
 
         userDAO.save(user);

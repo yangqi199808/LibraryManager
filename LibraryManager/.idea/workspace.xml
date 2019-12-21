@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95bf1837-7a5b-4e1a-949a-94f8b4e66ce1" name="Default Changelist" comment="Spring+SpringMVC+Hibernate框架搭建">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="95bf1837-7a5b-4e1a-949a-94f8b4e66ce1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +267,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576901130952</updated>
-      <workItem from="1576901133836" duration="2564000" />
+      <workItem from="1576901133836" duration="2826000" />
     </task>
     <task id="LOCAL-00001" summary="Spring+SpringMVC+Hibernate框架搭建">
       <created>1576903552184</created>
@@ -277,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576903552184</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Spring+SpringMVC+Hibernate框架搭建">
+      <created>1576903726409</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576903726409</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,10 +302,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576901379283" />
-    <state x="528" y="121" key="CommitChangelistDialog2" timestamp="1576903557985">
+    <state x="528" y="121" key="CommitChangelistDialog2" timestamp="1576903725785">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="528" y="121" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1576903557985" />
+    <state x="528" y="121" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1576903725785" />
     <state x="740" y="268" key="FileChooserDialogImpl" timestamp="1576903502491">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -324,10 +330,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="440" y="102" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1576902823470" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1576903629507">
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1576903729979">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1576903629507" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1576903729979" />
     <state x="652" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1576901135504">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

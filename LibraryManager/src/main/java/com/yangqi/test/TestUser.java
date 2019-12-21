@@ -1,14 +1,13 @@
 package com.yangqi.test;
 
 import com.yangqi.dao.UserDAO;
-import com.yangqi.model.User;
+import com.yangqi.model.UserEntity;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import javax.annotation.Resource;
-import java.util.List;
 
 /**
  * Created by Administrator on 2017/4/2.
@@ -24,22 +23,32 @@ public class TestUser {
         this.userDAO = userDAO;
     }
 
+    /**
+     * 修改User密码
+     */
     @Test
-    //测试save
-    public void testSave() throws Exception {
-        User user = new User();
-
-        user.setUsername("445");
-        user.setPassword("123");
-
-        userDAO.save(user);
+    public void updatePassword() {
+        UserEntity userEntity = userDAO.findByID("1618014058");
+        userEntity.setPassword("1618014058");
+        userDAO.update(userEntity);
     }
 
-    @Test
-    public void testFind()throws Exception{
-        List<User> users = userDAO.findByUsername("123");
-        for (User user : users) {
-            System.out.println(user.getUid() + " " + user.getUsername() + " " + user.getPassword());
-        }
-    }
+    // @Test
+    // //测试save
+    // public void testSave() throws Exception {
+    //     User user = new User();
+    //
+    //     user.setUsername("445");
+    //     user.setPassword("123");
+    //
+    //     bookTypeDAO.save(user);
+    // }
+
+    // @Test
+    // public void testFind()throws Exception{
+    //     List<User> users = bookTypeDAO.findByUsername("123");
+    //     for (User user : users) {
+    //         System.out.println(user.getUid() + " " + user.getUsername() + " " + user.getPassword());
+    //     }
+    // }
 }

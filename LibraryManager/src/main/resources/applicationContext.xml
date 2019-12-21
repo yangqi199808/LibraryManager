@@ -46,7 +46,7 @@
 
     <!-- 配置SessionFactory -->
     <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
-        <!-- 配置c3p0数据库连接池 -->
+        <!-- 配置druid数据库连接池 -->
         <property name="dataSource" ref="druidDataSource"/>
         <property name="hibernateProperties">
             <props>

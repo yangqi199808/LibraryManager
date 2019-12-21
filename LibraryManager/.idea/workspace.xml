@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95bf1837-7a5b-4e1a-949a-94f8b4e66ce1" name="Default Changelist" comment="" />
+    <list default="true" id="95bf1837-7a5b-4e1a-949a-94f8b4e66ce1" name="Default Changelist" comment="Spring+SpringMVC+Hibernate框架搭建">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +20,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\code\JavaEE\LibraryManager\LibraryManager\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -34,6 +45,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1VHDT2XzC3p2jTgYLo8Wt26mlr6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -41,6 +53,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
@@ -255,18 +268,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576901130952</updated>
-      <workItem from="1576901133836" duration="2340000" />
+      <workItem from="1576901133836" duration="2564000" />
     </task>
+    <task id="LOCAL-00001" summary="Spring+SpringMVC+Hibernate框架搭建">
+      <created>1576903552184</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576903552184</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Spring+SpringMVC+Hibernate框架搭建" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring+SpringMVC+Hibernate框架搭建" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="186" key="#Project_Structure" timestamp="1576903714282">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="186" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1576903714282" />
     <state x="414" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576901379283">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576901379283" />
+    <state x="528" y="121" key="CommitChangelistDialog2" timestamp="1576903557985">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="528" y="121" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1576903557985" />
     <state x="740" y="268" key="FileChooserDialogImpl" timestamp="1576903502491">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -291,6 +324,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="440" y="102" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1576902823470" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1576903629507">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1576903629507" />
     <state x="652" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1576901135504">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

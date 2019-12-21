@@ -267,7 +267,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576901130952</updated>
-      <workItem from="1576901133836" duration="2826000" />
+      <workItem from="1576901133836" duration="3117000" />
     </task>
     <task id="LOCAL-00001" summary="Spring+SpringMVC+Hibernate框架搭建">
       <created>1576903552184</created>
@@ -283,7 +283,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576903726409</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Spring+SpringMVC+Hibernate框架搭建">
+      <created>1576904029420</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576904029420</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Spring+SpringMVC+Hibernate框架搭建">
+      <created>1576904130488</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576904130488</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,10 +316,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576901379283" />
-    <state x="528" y="121" key="CommitChangelistDialog2" timestamp="1576904028777">
+    <state x="528" y="121" key="CommitChangelistDialog2" timestamp="1576904129844">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="528" y="121" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1576904028777" />
+    <state x="528" y="121" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1576904129844" />
     <state x="740" y="268" key="FileChooserDialogImpl" timestamp="1576903502491">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -330,10 +344,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="440" y="102" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1576902823470" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1576904033586">
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1576904134304">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1576904033586" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1576904134304" />
     <state x="652" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1576901135504">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

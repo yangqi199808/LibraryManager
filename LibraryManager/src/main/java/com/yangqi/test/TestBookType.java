@@ -41,7 +41,7 @@ public class TestBookType {
      */
     @Test
     public void deleteBookType() {
-        BookTypeEntity bookTypeEntity = bookTypeDAO.findByID(4);
+        BookTypeEntity bookTypeEntity = bookTypeDAO.findById(4);
         bookTypeDAO.delete(bookTypeEntity);
     }
 

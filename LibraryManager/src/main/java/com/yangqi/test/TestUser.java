@@ -28,7 +28,7 @@ public class TestUser {
      */
     @Test
     public void updatePassword() {
-        UserEntity userEntity = userDAO.findByID("1618014058");
+        UserEntity userEntity = userDAO.findById("1618014058");
         userEntity.setPassword("1618014058");
         userDAO.save(userEntity);
     }

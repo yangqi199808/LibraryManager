@@ -29,7 +29,7 @@ public class UserDAO extends HibernateDaoSupport {
         this.getHibernateTemplate().delete(value);
     }
 
-    public UserEntity findByID(String key) {
+    public UserEntity findById(String key) {
         return this.getHibernateTemplate().get(UserEntity.class, key);
     }
 

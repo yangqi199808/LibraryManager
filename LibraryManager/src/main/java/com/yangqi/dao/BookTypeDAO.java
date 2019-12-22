@@ -29,7 +29,7 @@ public class BookTypeDAO extends HibernateDaoSupport {
         this.getHibernateTemplate().delete(value);
     }
 
-    public BookTypeEntity findByID(Integer key) {
+    public BookTypeEntity findById(Integer key) {
         return this.getHibernateTemplate().get(BookTypeEntity.class, key);
     }
 

@@ -1,13 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: xiaoer
-  Date: 2019/12/21
-  Time: 19:21
-  To change this template use File | Settings | File Templates.
---%>
-<%request.setCharacterEncoding("UTF-8"); %>
-<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8"
-         import="java.util.*,java.sql.*,java.net.*" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     String path = request.getContextPath();
     String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";
@@ -15,41 +6,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="pragma" content="no-cache">
-    <meta http-equiv="cache-control" content="no-cache">
-    <meta http-equiv="expires" content="0">
-    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
-    <title>登录验证页面</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>登录</title>
+    <link rel="stylesheet" href="plugins/layui/css/layui.css" media="all"/>
+    <link rel="stylesheet" href="css/login.css"/>
 </head>
-<body>
-<%
-    // 接收用户名和密码
-    String user = new String(request.getParameter("username").getBytes("ISO-8859-1"), "UTF-8");
-    String passwd = request.getParameter("password");
 
-    String driverClass = "com.mysql.jdbc.Driver";
-    String url = "jdbc:mysql://localhost:3306/library?useUnicode=true&characterEncoding=UTF-8";
-    String username = "yangqi";
-    String password = "xiaoer";
-    // 加载驱动
-    Class.forName(driverClass);
-    Connection conn = DriverManager.getConnection(url, username, password);
-    String sql = "select * from user where stu_id = ? and password = ?";
-    PreparedStatement prep = conn.prepareStatement(sql);
-    prep.setString(1, user);
-    prep.setString(2, passwd);
-    ResultSet rs = prep.executeQuery();
-    if (rs.next()) {
-        // 解决乱码
-        response.sendRedirect("success.jsp?username=" + URLEncoder.encode(user));
-    } else {
-        // 密码不对，返回到登录
-        response.sendRedirect("index.jsp?errNo");
-    }
-    rs.close();
-    prep.close();
-    conn.close();
-%>
+<body class="beg-login-bg">
+<div class="beg-login-box">
+    <header>
+        <h1>图书管理系统</h1>
+    </header>
+    <div class="beg-login-main">
+        <form class="layui-form" method="post" action="${pageContext.request.contextPath}/user/validate">
+            <div class="layui-form-item">
+                <label class="beg-login-icon">
+                    <i class="layui-icon">&#xe612;</i>
+                </label>
+                <input type="text" id="userName" name="stuId" lay-verify="userName" autocomplete="off" placeholder="这里输入登录名"
+                       class="layui-input">
+            </div>
+            <div class="layui-form-item">
+                <label class="beg-login-icon">
+                    <i class="layui-icon">&#xe642;</i>
+                </label>
+                <input type="password" id="password" name="password" lay-verify="password" autocomplete="off" placeholder="这里输入密码"
+                       class="layui-input">
+            </div>
+            <div class="layui-form-item">
+                <div class="beg-pull-left beg-login-remember">
+                    <label>记住帐号？</label>
+                    <input type="checkbox" name="rememberMe" value="true" lay-skin="switch" checked title="记住帐号">
+                </div>
+                <div class="beg-pull-right">
+                    <button class="layui-btn layui-btn-primary" lay-submit lay-filter="login" onclick="login()">
+                        <i class="layui-icon">&#xe650;</i> 登录
+                    </button>
+                </div>
+                <div class="beg-clear"></div>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p>Beginner © www.zhengjinfan.cn</p>
+    </footer>
+</div>
+<%--<script type="text/javascript" src="plugins/layui/layui.js"></script>--%>
+<%--<script>--%>
+<%--    // layui.use(['layer', 'form'], function () {--%>
+<%--    //     var layer = layui.layer,--%>
+<%--    //         $ = layui.jquery,--%>
+<%--    //         form = layui.form();--%>
+<%--    //     form.on('submit(login)', function (data) {--%>
+<%--    //         location.href = 'index.jsp';--%>
+<%--    //         return false;--%>
+<%--    //     });--%>
+<%--    // });--%>
+<%--    function login() {--%>
+<%--        var stuId = $("#userName").val();--%>
+<%--        var password = $("#password").val();--%>
+
+<%--        $.ajax({--%>
+<%--            type: "POST",--%>
+<%--            url: "/user/validate",--%>
+<%--            data: {'stuId':stuId, 'password':password},--%>
+<%--            dataType: "json",--%>
+<%--            success:function (data) {--%>
+<%--                alert("你好");--%>
+<%--            },--%>
+<%--            error:function (data) {--%>
+<%--                alert("错误");--%>
+<%--            }--%>
+<%--        })--%>
+<%--    }--%>
+<%--</script>--%>
 </body>
 </html>

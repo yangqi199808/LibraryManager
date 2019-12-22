@@ -54,7 +54,7 @@ public class BookTypeController {
      */
     @RequestMapping(value = "/")
     public String delete(@PathVariable("id") Integer bookType) {
-        bookTypeDAO.delete(bookTypeDAO.findByID(bookType));
+        bookTypeDAO.delete(bookTypeDAO.findById(bookType));
         return "/";
     }
 }

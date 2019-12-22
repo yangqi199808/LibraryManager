@@ -2,13 +2,13 @@ package com.yangqi.test;
 
 import com.yangqi.dao.BookDAO;
 import com.yangqi.model.BookEntity;
+import com.yangqi.util.DateUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import javax.annotation.Resource;
-import java.sql.Timestamp;
 
 /**
  * Created by Administrator on 2017/4/2.
@@ -32,13 +32,13 @@ public class TestBook {
     @Test
     public void addBook() throws Exception {
         BookEntity bookEntity = new BookEntity();
-        bookEntity.setBookId("978-7-304-09601-4");
+        bookEntity.setBookId("978-7-306-09641-4");
         bookEntity.setBookName("肖秀荣考研政治终极预测4套卷");
         bookEntity.setBookAuthor("肖秀荣");
         bookEntity.setBookPublish("国家开放大学出版社");
         bookEntity.setBookNum(5);
-        bookEntity.setBookType(1);
-        bookEntity.setBookRecord(Timestamp.valueOf("2019-10-20 10:20:20"));
+        bookEntity.setBookType(5);
+        bookEntity.setBookRecord(DateUtil.getNowDate());
 
         bookDAO.save(bookEntity);
     }

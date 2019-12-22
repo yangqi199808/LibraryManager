@@ -7,68 +7,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95bf1837-7a5b-4e1a-949a-94f8b4e66ce1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/controller/BookTypeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/dao/BookTypeDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/dao/BorrowDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/dao/ManagerDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/dao/StudentDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/model/BookEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/model/BookTypeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/model/BorrowEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/model/BorrowEntityPK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/model/ManagerEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/model/ReturnEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/model/ReturnEntityPK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/model/StudentEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/model/TicketEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/model/TicketEntityPK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/model/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/test/TestBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/test/TestBookType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/test/TestBorrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/test/TestManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/test/TestStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/util/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/login_admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/backgroundAdmin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/error.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/logo.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login_admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login_admin_check.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login_admin_success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/regsiter.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/register.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/register_check.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/LibraryManager-1.0/WEB-INF/classes/com/yangqi/dao/UserDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/LibraryManager-1.0/assets/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/LibraryManager-1.0/assets/images/error.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/LibraryManager-1.0/assets/images/register.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/39bf737b-3b8c-482d-ade4-b603437a94f2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/39bf737b-3b8c-482d-ade4-b603437a94f2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yangqi/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yangqi/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yangqi/dao/BlogDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/dao/BookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yangqi/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yangqi/dao/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/dao/BookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yangqi/dao/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/dao/StudentDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yangqi/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yangqi/model/Blog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yangqi/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yangqi/test/TestBlog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yangqi/model/StudentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/model/StudentEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yangqi/test/TestBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/test/TestBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yangqi/test/TestBookType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/test/TestBookType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yangqi/test/TestStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/test/TestStudent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yangqi/test/TestUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yangqi/test/TestUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/errorPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/errorPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/controller/BlogController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/dao/BlogDAO$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/dao/BlogDAO$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/dao/BlogDAO$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/dao/BlogDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/dao/UserDAO$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/login_admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/login_admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login_admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login_admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login_admin_check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login_admin_check.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/regsiter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/regsiter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryManager-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryManager-1.0.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryManager-1.0/WEB-INF/classes/META-INF/LibraryManager.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryManager-1.0/WEB-INF/classes/com/yangqi/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryManager-1.0/WEB-INF/classes/com/yangqi/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryManager-1.0/WEB-INF/classes/com/yangqi/dao/BookDAO$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryManager-1.0/WEB-INF/classes/com/yangqi/dao/BookDAO$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryManager-1.0/WEB-INF/classes/com/yangqi/dao/BookDAO$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryManager-1.0/WEB-INF/classes/com/yangqi/dao/BookDAO$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryManager-1.0/WEB-INF/classes/com/yangqi/dao/BookDAO$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryManager-1.0/WEB-INF/classes/com/yangqi/dao/BookDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryManager-1.0/WEB-INF/classes/com/yangqi/dao/BookDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryManager-1.0/WEB-INF/classes/com/yangqi/dao/StudentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryManager-1.0/WEB-INF/classes/com/yangqi/dao/StudentDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryManager-1.0/WEB-INF/classes/com/yangqi/test/TestBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryManager-1.0/WEB-INF/classes/com/yangqi/test/TestBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryManager-1.0/WEB-INF/classes/com/yangqi/test/TestBookType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryManager-1.0/WEB-INF/classes/com/yangqi/test/TestBookType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryManager-1.0/WEB-INF/classes/com/yangqi/test/TestStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryManager-1.0/WEB-INF/classes/com/yangqi/test/TestStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryManager-1.0/WEB-INF/classes/com/yangqi/test/TestUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryManager-1.0/WEB-INF/classes/com/yangqi/test/TestUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryManager-1.0/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryManager-1.0/assets/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryManager-1.0/assets/css/login_admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryManager-1.0/assets/css/login_admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryManager-1.0/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryManager-1.0/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryManager-1.0/login_admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryManager-1.0/login_admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryManager-1.0/login_admin_check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryManager-1.0/login_admin_check.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryManager-1.0/regsiter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryManager-1.0/regsiter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryManager-1.0/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryManager-1.0/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/LibraryManager.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yangqi/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/dao/BookDAO$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yangqi/dao/BookDAO$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/dao/BookDAO$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yangqi/dao/BookDAO$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/dao/BookDAO$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/dao/BookDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yangqi/dao/BookDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/dao/StudentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yangqi/dao/StudentDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yangqi/dao/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/model/Blog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/test/TestBlog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/test/TestBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yangqi/test/TestBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/test/TestBookType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yangqi/test/TestBookType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/test/TestStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yangqi/test/TestStudent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/yangqi/test/TestUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yangqi/test/TestUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +108,14 @@
         <item name="library" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="library: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="book_type: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="book: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="library" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="library: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="student: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -121,8 +123,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -170,6 +172,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="JPA.DatabaseSchemaImportDialog" value="39bf737b-3b8c-482d-ade4-b603437a94f2" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -183,12 +186,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yangqi.test" />
+      <recent name="com.yangqi.dao" />
+    </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="com.yangqi.model" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.yangqi.dao" />
-      <recent name="com.yangqi.test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\code\JavaEE\LibraryManager\LibraryManager\src\main\webapp\assets\css" />
@@ -198,8 +201,8 @@
       <recent name="E:\code\JavaEE\LibraryManager\LibraryManager\src\main\java\com\yangqi\dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestUser.updatePassword">
-    <configuration name="TestManager.addManager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestStudent.findAll">
+    <configuration name="TestBook.addBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LibraryManager" />
       <extension name="coverage">
         <pattern>
@@ -208,8 +211,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.yangqi.test" />
-      <option name="MAIN_CLASS_NAME" value="com.yangqi.test.TestManager" />
-      <option name="METHOD_NAME" value="addManager" />
+      <option name="MAIN_CLASS_NAME" value="com.yangqi.test.TestBook" />
+      <option name="METHOD_NAME" value="addBook" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -231,7 +234,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestUser.updatePassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStudent.deleteStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LibraryManager" />
       <extension name="coverage">
         <pattern>
@@ -240,8 +243,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.yangqi.test" />
-      <option name="MAIN_CLASS_NAME" value="com.yangqi.test.TestUser" />
-      <option name="METHOD_NAME" value="updatePassword" />
+      <option name="MAIN_CLASS_NAME" value="com.yangqi.test.TestStudent" />
+      <option name="METHOD_NAME" value="deleteStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStudent.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibraryManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yangqi.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yangqi.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yangqi.test.TestStudent" />
+      <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStudent.findById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibraryManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yangqi.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yangqi.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yangqi.test.TestStudent" />
+      <option name="METHOD_NAME" value="findById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -322,15 +357,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.TestStudent.addStudent" />
-      <item itemvalue="JUnit.TestManager.addManager" />
       <item itemvalue="Tomcat Server.Tomcat 7.0.96" />
-      <item itemvalue="JUnit.TestUser.updatePassword" />
+      <item itemvalue="JUnit.TestBook.addBook" />
+      <item itemvalue="JUnit.TestStudent.deleteStudent" />
+      <item itemvalue="JUnit.TestStudent.findById" />
+      <item itemvalue="JUnit.TestStudent.findAll" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestUser.updatePassword" />
-        <item itemvalue="JUnit.TestManager.addManager" />
+        <item itemvalue="JUnit.TestStudent.findAll" />
         <item itemvalue="JUnit.TestStudent.addStudent" />
+        <item itemvalue="JUnit.TestStudent.findById" />
+        <item itemvalue="JUnit.TestStudent.deleteStudent" />
+        <item itemvalue="JUnit.TestBook.addBook" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +412,9 @@
       <workItem from="1576932328049" duration="3472000" />
       <workItem from="1576935866169" duration="87000" />
       <workItem from="1576935983600" duration="23000" />
-      <workItem from="1576936109004" duration="6677000" />
+      <workItem from="1576936109004" duration="8378000" />
+      <workItem from="1576945119626" duration="1073000" />
+      <workItem from="1576984854155" duration="6373000" />
     </task>
     <task id="LOCAL-00001" summary="Spring+SpringMVC+Hibernate框架搭建">
       <created>1576903552184</created>
@@ -417,15 +458,24 @@
       <option name="project" value="LOCAL" />
       <updated>1576904576441</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="LibraryManager基础登录页面">
+      <created>1576943543119</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576943543119</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Spring+SpringMVC+Hibernate框架搭建" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring+SpringMVC+Hibernate框架搭建" />
+    <MESSAGE value="LibraryManager基础登录页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="LibraryManager基础登录页面" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="186" key="#Project_Structure" timestamp="1576903714282">
@@ -436,14 +486,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576932369656" />
-    <state x="717" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1576941777016">
+    <state x="717" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1576986302600">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="717" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1576941777016" />
-    <state x="630" y="75" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog" timestamp="1576941750176">
+    <state x="717" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1576986302600" />
+    <state x="630" y="75" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog" timestamp="1576986274788">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="630" y="75" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576941750176" />
+    <state x="630" y="75" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576986274788" />
     <state x="640" y="262" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576935763196">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -452,66 +502,66 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576905100140" />
-    <state x="690" y="274" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576941734422">
+    <state x="690" y="274" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576986250105">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="690" y="274" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576941734422" />
-    <state x="770" y="132" key="CommitChangelistDialog2" timestamp="1576904575722">
+    <state x="690" y="274" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576986250105" />
+    <state x="770" y="132" key="CommitChangelistDialog2" timestamp="1576943541845">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="770" y="132" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1576904575722" />
+    <state x="770" y="132" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1576943541845" />
     <state x="740" y="268" key="FileChooserDialogImpl" timestamp="1576936349297">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="268" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1576936349297" />
-    <state width="1877" height="254" key="GridCell.Tab.0.bottom" timestamp="1576942679818">
+    <state width="1293" height="182" key="GridCell.Tab.0.bottom" timestamp="1576992516518">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576942679818" />
-    <state width="1877" height="254" key="GridCell.Tab.0.center" timestamp="1576942679818">
+    <state width="1293" height="182" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576992516518" />
+    <state width="1293" height="182" key="GridCell.Tab.0.center" timestamp="1576992516518">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="254" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576942679818" />
-    <state width="1877" height="254" key="GridCell.Tab.0.left" timestamp="1576942679818">
+    <state width="1293" height="182" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576992516518" />
+    <state width="1293" height="182" key="GridCell.Tab.0.left" timestamp="1576992516518">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="254" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576942679818" />
-    <state width="1877" height="254" key="GridCell.Tab.0.right" timestamp="1576942679818">
+    <state width="1293" height="182" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576992516518" />
+    <state width="1293" height="182" key="GridCell.Tab.0.right" timestamp="1576992516518">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="254" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576942679818" />
-    <state width="1293" height="182" key="GridCell.Tab.1.bottom" timestamp="1576942548393">
+    <state width="1293" height="182" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576992516518" />
+    <state width="1293" height="182" key="GridCell.Tab.1.bottom" timestamp="1576992516130">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1293" height="182" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576942548393" />
-    <state width="1293" height="182" key="GridCell.Tab.1.center" timestamp="1576942548393">
+    <state width="1293" height="182" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576992516130" />
+    <state width="1293" height="182" key="GridCell.Tab.1.center" timestamp="1576992516130">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1293" height="182" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576942548393" />
-    <state width="1293" height="182" key="GridCell.Tab.1.left" timestamp="1576942548393">
+    <state width="1293" height="182" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576992516130" />
+    <state width="1293" height="182" key="GridCell.Tab.1.left" timestamp="1576992516130">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1293" height="182" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576942548393" />
-    <state width="1293" height="182" key="GridCell.Tab.1.right" timestamp="1576942548393">
+    <state width="1293" height="182" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576992516130" />
+    <state width="1293" height="182" key="GridCell.Tab.1.right" timestamp="1576992516130">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1293" height="182" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576942548393" />
-    <state width="1293" height="182" key="GridCell.Tab.2.bottom" timestamp="1576942548393">
+    <state width="1293" height="182" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576992516130" />
+    <state width="1293" height="182" key="GridCell.Tab.2.bottom" timestamp="1576992516131">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1293" height="182" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576942548393" />
-    <state width="1293" height="182" key="GridCell.Tab.2.center" timestamp="1576942548393">
+    <state width="1293" height="182" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576992516131" />
+    <state width="1293" height="182" key="GridCell.Tab.2.center" timestamp="1576992516131">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1293" height="182" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576942548393" />
-    <state width="1293" height="182" key="GridCell.Tab.2.left" timestamp="1576942548393">
+    <state width="1293" height="182" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576992516131" />
+    <state width="1293" height="182" key="GridCell.Tab.2.left" timestamp="1576992516131">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1293" height="182" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576942548393" />
-    <state width="1293" height="182" key="GridCell.Tab.2.right" timestamp="1576942548393">
+    <state width="1293" height="182" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576992516131" />
+    <state width="1293" height="182" key="GridCell.Tab.2.right" timestamp="1576992516131">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1293" height="182" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576942548393" />
+    <state width="1293" height="182" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576992516131" />
     <state width="1293" height="182" key="GridCell.Tab.3.bottom" timestamp="1576939225146">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -536,14 +586,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="440" y="102" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1576914525738" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1576904580418">
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1576992933505">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1576904580418" />
-    <state x="652" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1576936127069">
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1576992933505" />
+    <state x="652" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1576984854502">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="652" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576936127069" />
+    <state x="652" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576984854502" />
     <state x="663" y="157" key="refactoring.ChangeSignatureDialog" timestamp="1576913151798">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -552,10 +602,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1576930599695" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1576930419866">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1576990590254">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1576930419866" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1576990590254" />
     <state x="629" y="216" key="spring file set editor" timestamp="1576902713715">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

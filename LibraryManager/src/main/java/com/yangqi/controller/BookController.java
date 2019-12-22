@@ -89,7 +89,7 @@ public class BookController {
      */
     @RequestMapping(value = "/show/{id}")
     public String get(@PathVariable("id") String bookId, ModelMap modelMap) throws Exception {
-        modelMap.addAttribute("book", bookDAO.findByID(bookId));
+        modelMap.addAttribute("book", bookDAO.findById(bookId));
         return "book";
     }
 
@@ -102,7 +102,7 @@ public class BookController {
      */
     @RequestMapping(value = "/update/{id}")
     public String toUpdatePage(@PathVariable("id") String bookId, ModelMap modelMap) throws Exception {
-        modelMap.addAttribute("book", bookDAO.findByID(bookId));
+        modelMap.addAttribute("book", bookDAO.findById(bookId));
         return "bookUpdate";
     }
 
@@ -124,7 +124,7 @@ public class BookController {
      */
     @RequestMapping(value = "/delete/{id}")
     public String delete(@PathVariable("id") String bookId) throws Exception {
-        bookDAO.delete(bookDAO.findByID(bookId));
+        bookDAO.delete(bookDAO.findById(bookId));
         return "index";
     }
 

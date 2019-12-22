@@ -29,7 +29,7 @@ public class StudentDAO extends HibernateDaoSupport {
         this.getHibernateTemplate().delete(value);
     }
 
-    public StudentEntity findByID(String key) {
+    public StudentEntity findById(String key) {
         return this.getHibernateTemplate().get(StudentEntity.class, key);
     }
 

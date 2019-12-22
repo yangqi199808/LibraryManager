@@ -36,8 +36,4 @@ public class UserDAO extends HibernateDaoSupport {
     public List<UserEntity> findAll() {
         return this.getHibernateTemplate().loadAll(UserEntity.class);
     }
-
-    public void update(UserEntity value) {
-        this.getHibernateTemplate().update(value);
-    }
 }

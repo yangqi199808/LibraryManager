@@ -20,7 +20,7 @@
     <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="expires" content="0">
     <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
-    <title>登录页面</title>
+    <title>登录验证页面</title>
 </head>
 <body>
 <%

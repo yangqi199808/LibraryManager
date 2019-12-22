@@ -8,6 +8,11 @@ html, body {
     height: 100%;
 }
 
+body {
+    background-image: url("../images/backgroundAdmin.jpg");
+    background-size: cover;
+}
+
 #context {
     font-size: 38px;
     width: 36%;
@@ -18,7 +23,7 @@ html, body {
     transform: translate(-50%, -50%);
     text-align: center;
     line-height: 224%;
-    letter-spacing: 40px;
+    letter-spacing: 30px;
     /*background: red;*/
 }
 

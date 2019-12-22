@@ -30,7 +30,7 @@ public class TestBookType {
     @Test
     public void saveBookType() {
         BookTypeEntity bookTypeEntity = new BookTypeEntity();
-        bookTypeEntity.setBookType(4);
+        bookTypeEntity.setBookType(5);
         bookTypeEntity.setBookName("人文科学类");
 
         bookTypeDAO.save(bookTypeEntity);

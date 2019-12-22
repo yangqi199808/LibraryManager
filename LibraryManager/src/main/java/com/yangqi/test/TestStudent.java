@@ -26,14 +26,12 @@ public class TestStudent {
 
     /**
      * 添加一条学生记录
-     *
-     * @throws Exception
      */
     @Test
-    public void addStudent() throws Exception {
+    public void addStudent() {
         StudentEntity studentEntity = new StudentEntity();
-        studentEntity.setStuId("1618014058");
-        studentEntity.setStuName("杨旗");
+        studentEntity.setStuId("1618014059");
+        studentEntity.setStuName("南科创");
         studentEntity.setStuSex("男");
         studentEntity.setStuAge(21);
         studentEntity.setStuPro("计算机科学与技术");
@@ -48,15 +46,24 @@ public class TestStudent {
      */
     @Test
     public void deleteStudent() {
-        StudentEntity studentEntity = studentDAO.findByID("1618014058");
+        StudentEntity studentEntity = studentDAO.findById("1618014058");
         studentDAO.delete(studentEntity);
     }
 
     /**
-     * 查询所有的学生记录
+     * 查询一条学生记录
      */
     @Test
-    public void findAllStudent() {
+    public void findById() {
+        StudentEntity studentEntity = studentDAO.findById("1618014058");
+        System.out.println(studentEntity);
+    }
+
+    /**
+     * 查询所有学生记录
+     */
+    @Test
+    public void findAll() {
         List<StudentEntity> studentEntityList = studentDAO.findAll();
         for (StudentEntity studentEntity : studentEntityList) {
             System.out.println(studentEntity);

@@ -18,16 +18,9 @@
     <meta name="keyword" content="LibraryManager">
     <link rel="shortuct icon" href="<%=bashPath%>assets/images/logo.ico">
     <link type="text/css" href="<%=bashPath%>assets/css/index.css" rel="stylesheet">
-    <title>图书管理系统</title>
-
-    <style type="text/css">
-        body {
-            background-image: url("<%=bashPath%>assets/images/background.jpg");
-            background-size: cover;
-        }
-    </style>
+    <title>登录页面</title>
 </head>
-<body style="background-color: #FFFFFF;">
+<body>
 <div id="context">
     图书管理系统
 </div>

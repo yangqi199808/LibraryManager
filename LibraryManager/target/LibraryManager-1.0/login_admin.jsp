@@ -19,17 +19,10 @@
     <link rel="shortuct icon" href="<%=bashPath%>assets/images/logo.ico">
     <link type="text/css" href="<%=bashPath%>assets/css/login_admin.css" rel="stylesheet">
     <title>图书管理系统后台登录</title>
-
-    <style type="text/css">
-        body {
-            background-image: url("<%=bashPath%>assets/images/backgroundAdmin.jpg");
-            background-size: cover;
-        }
-    </style>
 </head>
 <body>
 <div id="context">
-    图书管理系统
+    图书管理系统后台登录
 </div>
 <div id="container">
     <div id="box">

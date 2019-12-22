@@ -1103,7 +1103,7 @@ book_id</ColNames>
       <Comment>管理员密码</Comment>
       <DataType>varchar(16)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>&apos;000000&apos;</DefaultExpression>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
     <key id="269" parent="237" name="PRIMARY">
@@ -1284,7 +1284,7 @@ book_id</ColNames>
       <Comment>密码</Comment>
       <DataType>varchar(16)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>&apos;000000&apos;</DefaultExpression>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
     <key id="298" parent="241" name="PRIMARY">

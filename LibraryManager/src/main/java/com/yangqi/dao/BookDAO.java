@@ -33,29 +33,12 @@ public class BookDAO extends HibernateDaoSupport {
         this.getHibernateTemplate().delete(value);
     }
 
-    public BookEntity findByID(String key) {
+    public BookEntity findById(String key) {
         return this.getHibernateTemplate().get(BookEntity.class, key);
     }
 
     public List<BookEntity> findAll() {
         return this.getHibernateTemplate().loadAll(BookEntity.class);
-    }
-
-    /**
-     * 根据书籍ISBN查询书籍
-     *
-     * @param id 书籍ISBN
-     * @return List<Blog> 返回Blog列表
-     */
-    public List<BookEntity> findById(String id) {
-        return this.getHibernateTemplate().execute(new HibernateCallback<List<BookEntity>>() {
-            @Override
-            @Transactional
-            public List<BookEntity> doInHibernate(Session session) {
-                Query query = session.createQuery("from BookEntity where id=" + id);
-                return query.list();
-            }
-        });
     }
 
     /**

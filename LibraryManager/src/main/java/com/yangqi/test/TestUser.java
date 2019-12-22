@@ -30,7 +30,7 @@ public class TestUser {
     public void updatePassword() {
         UserEntity userEntity = userDAO.findByID("1618014058");
         userEntity.setPassword("1618014058");
-        userDAO.update(userEntity);
+        userDAO.save(userEntity);
     }
 
     // @Test
